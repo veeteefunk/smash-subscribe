@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+svg {
+  /* border: 2px solid #000; */
+  margin-top: 200px;
+}
+
+#main {
+  cursor: pointer;
+}
+
+#main g {
+  transition: transform 1s ease, opacity 1.3s linear;
+}
+
+.text {
+  fill: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  user-select: none;
+}
